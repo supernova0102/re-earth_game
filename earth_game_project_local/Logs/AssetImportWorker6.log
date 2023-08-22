@@ -1,0 +1,1383 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ko' Physical Memory: 16202 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+59735
+Successfully changed project path to: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local
+C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9676] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 3617952256 [EditorId] 3617952256 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V1RH8Q6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9676] Host "[IP] 172.30.1.46 [Port] 0 [Flags] 2 [Guid] 3617952256 [EditorId] 3617952256 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-V1RH8Q6) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 14.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1165
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011300 seconds.
+- Loaded All Assemblies, in  0.353 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.278 seconds
+Domain Reload Profiling: 629ms
+	BeginReloadAssembly (108ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (106ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (135ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (121ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (279ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (217ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (136ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.655 seconds
+Refreshing native plugins compatible for Editor in 4.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.508 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (143ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (319ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (156ms)
+				TypeCache.ScanAssembly (140ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (509ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (253ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 4.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3305 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (58.9 KB). Loaded Objects now: 3765.
+Memory consumption went from 121.7 MB to 121.6 MB.
+Total: 2.601400 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.221200 ms MarkObjects: 2.060800 ms  DeleteObjects: 0.083100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 859743.962903 seconds.
+  path: Assets/YAFUI/Fonts
+  artifactKey: Guid(f133a0e2c42534a0e9d7883a5a1ecf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Fonts using Guid(f133a0e2c42534a0e9d7883a5a1ecf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bbcc215fec47fe0c4cd5badd77836ea') in 0.002703 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.595680 seconds.
+  path: Assets/YAFUI/Icons
+  artifactKey: Guid(2a914151763f041aea5661c0b2c7c285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons using Guid(2a914151763f041aea5661c0b2c7c285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef902446cf287c52c28ddfc32f84661') in 0.000430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.147948 seconds.
+  path: Assets/YAFUI/Icons/png128
+  artifactKey: Guid(afccce59b1807b648b6d0b153e85654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128 using Guid(afccce59b1807b648b6d0b153e85654f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28337044a5bef33bb03168192896aa16') in 0.000443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.153724 seconds.
+  path: Assets/YAFUI/Icons/png128/account-network.png
+  artifactKey: Guid(c82fab2ead3f78744a104ae75bc916e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-network.png using Guid(c82fab2ead3f78744a104ae75bc916e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df532bb7774b7b5288bec25b04e96d44') in 0.130044 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/account-outline.png
+  artifactKey: Guid(f8a29fb884edc8b4bae15b4a48f0e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-outline.png using Guid(f8a29fb884edc8b4bae15b4a48f0e676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2187838cccd9fac141601126eb5d435c') in 0.029326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/account-switch.png
+  artifactKey: Guid(9372a7ed9c5dd154098b6402d2ff60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-switch.png using Guid(9372a7ed9c5dd154098b6402d2ff60b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7e63fdf773bc1b7fae9b7af569441c') in 0.030068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/account-remove.png
+  artifactKey: Guid(b14f365c51f016a4595fd7dfd91fe5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-remove.png using Guid(b14f365c51f016a4595fd7dfd91fe5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3413d36a858a357de4631072cf062ed') in 0.027109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/airplane-off.png
+  artifactKey: Guid(69013ab7de178724f984f35ee193cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/airplane-off.png using Guid(69013ab7de178724f984f35ee193cb1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208701aa23e8eb0b8645f177d6b72e31') in 0.028422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/YAFUI/Icons/png128/alert-circle.png
+  artifactKey: Guid(4909b6e2280e8dd48a25369e93d42350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alert-circle.png using Guid(4909b6e2280e8dd48a25369e93d42350) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14c1cfb2a5e674f10ebfcb7b56e0a700') in 0.024853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/alarm-snooze.png
+  artifactKey: Guid(90bd37d1615d3654cbd31ce352d37c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alarm-snooze.png using Guid(90bd37d1615d3654cbd31ce352d37c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58f4f6c222cdd56f67e7cfbad2146a3f') in 0.025992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/alert-circle-outline.png
+  artifactKey: Guid(ac2fc56b490849145b65fd8f78626024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alert-circle-outline.png using Guid(ac2fc56b490849145b65fd8f78626024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fdf43ea073455dccb4791f6f48483ee') in 0.024436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YAFUI/Icons/png128/airballoon.png
+  artifactKey: Guid(bc415680e251c9143bcfbbc6eed987a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/airballoon.png using Guid(bc415680e251c9143bcfbbc6eed987a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6152a80706276a7e66b8959ecd25c0f9') in 0.026145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/airplane-landing.png
+  artifactKey: Guid(cf2e909c4c5ceb34f9048a477efabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/airplane-landing.png using Guid(cf2e909c4c5ceb34f9048a477efabaa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b95e34ca6d1353c972dad41d5c03e88') in 0.025447 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/airplay.png
+  artifactKey: Guid(a340d5e5d6232da4a98f1fe223d7d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/airplay.png using Guid(a340d5e5d6232da4a98f1fe223d7d974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd24f923e7434757b44014c9848d993d') in 0.033220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/account-search.png
+  artifactKey: Guid(4e8fa6008c6aab84c8912073e4eda1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-search.png using Guid(4e8fa6008c6aab84c8912073e4eda1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9d39c61d049b4ea0bcf1f37e79a7209') in 0.027328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/account-settings.png
+  artifactKey: Guid(b6e3b27d43b126b49abf9eebc8efe944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/account-settings.png using Guid(b6e3b27d43b126b49abf9eebc8efe944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0418e5dce0ba6e6ace0621ad1802dd9e') in 0.026478 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/alert.png
+  artifactKey: Guid(01b81c481d5920042babf4f94f0d63f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alert.png using Guid(01b81c481d5920042babf4f94f0d63f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7670d9eb369d061267b4c6a84837e8d1') in 0.025067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.359276 seconds.
+  path: Assets/YAFUI/Icons/png128/alert-octagon.png
+  artifactKey: Guid(abeeacdd67ef27c4c96fb81c6d4640d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alert-octagon.png using Guid(abeeacdd67ef27c4c96fb81c6d4640d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3700b5c340afafa39a476adac3e2d9f1') in 0.025353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/amazon.png
+  artifactKey: Guid(78d2170cfca359f4286509955e0bb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/amazon.png using Guid(78d2170cfca359f4286509955e0bb08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0580a6cc171f449bfae0dad2394b3dee') in 0.027193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YAFUI/Icons/png128/alert-outline.png
+  artifactKey: Guid(d9bd673b6f655b44eb1172e917b111fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/alert-outline.png using Guid(d9bd673b6f655b44eb1172e917b111fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3c0dc3861f817c1fa5c96ead15c50a') in 0.029589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/YAFUI/Icons/png128/android.png
+  artifactKey: Guid(66db63c46bcca674c9f0b9a5bb2345f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/android.png using Guid(66db63c46bcca674c9f0b9a5bb2345f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d2eca5d63718e1501409bd14e139a') in 0.026790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/angular.png
+  artifactKey: Guid(35dda10346d852f488e133ca46e96a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/angular.png using Guid(35dda10346d852f488e133ca46e96a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9df025ae7e1c431cef181efae6e861') in 0.029031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/YAFUI/Icons/png128/angularjs.png
+  artifactKey: Guid(6aebf5a7109b279408b33b48f74b6e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/angularjs.png using Guid(6aebf5a7109b279408b33b48f74b6e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaec59debeedc2420592769b970f570') in 0.026449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Icons/png128/archive.png
+  artifactKey: Guid(de29641fa76120246b0bc6540c350936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/archive.png using Guid(de29641fa76120246b0bc6540c350936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36347270eb9a783bbd23c74de1165235') in 0.029317 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/android-studio.png
+  artifactKey: Guid(952563502f647444bb7ec1dda1e4e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/android-studio.png using Guid(952563502f647444bb7ec1dda1e4e90e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9dd68686d21a63f0f9f6b0975184bf') in 0.027808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/altimeter.png
+  artifactKey: Guid(2b472e5ec7b8e0e4f8e9f06edfb5cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/altimeter.png using Guid(2b472e5ec7b8e0e4f8e9f06edfb5cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '544557647e0e4db92ba91992dc62e100') in 0.032869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/YAFUI/Icons/png128/android-head.png
+  artifactKey: Guid(5d8ecc1bb99bbc540939ea1f78a7a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/android-head.png using Guid(5d8ecc1bb99bbc540939ea1f78a7a22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09f68975d8f3aff0d1d16f7a98a4ce6') in 0.029933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.722671 seconds.
+  path: Assets/YAFUI/Fonts/Noto-Sans
+  artifactKey: Guid(e8fd79a2efead4ef0aa31337942148ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Fonts/Noto-Sans using Guid(e8fd79a2efead4ef0aa31337942148ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dd1962b6d242a332b358b2a444d382a') in 0.000572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.250509 seconds.
+  path: Assets/YAFUI/Fonts/Noto-Sans/NotoSans-Bold.ttf
+  artifactKey: Guid(58d395d09d20f48cd8994c78573d8753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Fonts/Noto-Sans/NotoSans-Bold.ttf using Guid(58d395d09d20f48cd8994c78573d8753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0683519200a2ba7d63433fc247c48c6b') in 0.058619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Fonts/Noto-Sans/NotoSans-Regular.ttf
+  artifactKey: Guid(79dc1e1a4e54d4ffc840969b208d9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Fonts/Noto-Sans/NotoSans-Regular.ttf using Guid(79dc1e1a4e54d4ffc840969b208d9d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f6ee6a68992411fdeaab286ffbf530') in 0.016899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 3.126506 seconds.
+  path: Assets/YAFUI/Images/circle08.png
+  artifactKey: Guid(ebe539455bdc83a4a96ad4d717abf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/circle08.png using Guid(ebe539455bdc83a4a96ad4d717abf0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c3c2c3b0052a88118e7024688905fd') in 0.033267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Images/shadow128.png
+  artifactKey: Guid(ba8dd8f9a3b0da74085878ed13451f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/shadow128.png using Guid(ba8dd8f9a3b0da74085878ed13451f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c05b7ac31c45f7502052a2c5b40e04') in 0.028366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Images/glow032.png
+  artifactKey: Guid(3dda5b8d2e79b2045a841ffbda87f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/glow032.png using Guid(3dda5b8d2e79b2045a841ffbda87f9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ee9ba9287a5d54d046100c1b8094a3') in 0.029468 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Images/glow016.png
+  artifactKey: Guid(9e5ef0e36e611b74baac0171b152253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/glow016.png using Guid(9e5ef0e36e611b74baac0171b152253f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad36b582e3a0f63595cdea7a9617f65e') in 0.028156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Images/UI.psd
+  artifactKey: Guid(30a5cb0fc1bd2ab47815c2a1cece01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/UI.psd using Guid(30a5cb0fc1bd2ab47815c2a1cece01e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4c884facbd41d98be88330d4f14a23') in 0.031185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.992596 seconds.
+  path: Assets/YAFUI/Images/old
+  artifactKey: Guid(b7b2646673d69224484d3d1592a787ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old using Guid(b7b2646673d69224484d3d1592a787ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '250bcb83c3b2d18b24708537455ec4b3') in 0.000530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050244 seconds.
+  path: Assets/YAFUI/Images/old/Circle.png
+  artifactKey: Guid(d7d48516543513b419fdf72c7c9e7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/Circle.png using Guid(d7d48516543513b419fdf72c7c9e7641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc6c8fd48891eb1dcbcfef5d2cbc10d6') in 0.030884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Images/old/Square.png
+  artifactKey: Guid(a18ec3ec948129242bc3947efad5332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/Square.png using Guid(a18ec3ec948129242bc3947efad5332f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d6e19d40d1e870dce674e235d802f2') in 0.016429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/YAFUI/Images/old/SquareShadow08.png
+  artifactKey: Guid(8dde9dca2a09bc740a2f4872aadf801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/SquareShadow08.png using Guid(8dde9dca2a09bc740a2f4872aadf801b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9ace4d5ddf170ed6aa07fe2b823b01') in 0.019024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/YAFUI/Images/old/RSquareShadow32.png
+  artifactKey: Guid(258244c9f1251984284b37b229e4b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/RSquareShadow32.png using Guid(258244c9f1251984284b37b229e4b0b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '850dcf9cfbec152fa2f080b7ecc3aa30') in 0.017350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Images/old/RSquare.png
+  artifactKey: Guid(018264c9ddca39a49b34842c89b0fff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/RSquare.png using Guid(018264c9ddca39a49b34842c89b0fff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac56ca153e5319ead4baa83f1ce7368') in 0.015855 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Images/old/smallCircle.png
+  artifactKey: Guid(9159d84603970574cb63b5bb7d3df81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old/smallCircle.png using Guid(9159d84603970574cb63b5bb7d3df81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b02297412ace4e7800aa960dbe9d421') in 0.024788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.161498 seconds.
+  path: Assets/YAFUI/Prefabs/Button.prefab
+  artifactKey: Guid(bc704a56b873f0442af9045bdde3ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/Button.prefab using Guid(bc704a56b873f0442af9045bdde3ab0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c01cad5af67d7fbe341e3d76f6cc15e') in 0.015197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/YAFUI/Prefabs/RadialButton.prefab
+  artifactKey: Guid(e373d5c8074124347a34990bb44a97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/RadialButton.prefab using Guid(e373d5c8074124347a34990bb44a97f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322ed4fa6bb9a8e4e83d577afd911f19') in 0.006234 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Prefabs/ScrollView.prefab
+  artifactKey: Guid(62ffedc8bab636344b99387d9323a834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/ScrollView.prefab using Guid(62ffedc8bab636344b99387d9323a834) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa07b174a9715ade46952399014d549') in 0.005758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 44
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/YAFUI/Prefabs/DialogueButton.prefab
+  artifactKey: Guid(901dd9ec8b9e5a94ea60c157f4a2ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/DialogueButton.prefab using Guid(901dd9ec8b9e5a94ea60c157f4a2ef70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb9682df6f17cfa7f99777fcde631e4d') in 0.003898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 30
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/YAFUI/Prefabs/Slider.prefab
+  artifactKey: Guid(f1063abb5f562b04ba6aff767c5ab2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/Slider.prefab using Guid(f1063abb5f562b04ba6aff767c5ab2e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d1f612082420637dc24dd37b447e68') in 0.004016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/YAFUI/Prefabs/SliderThin.prefab
+  artifactKey: Guid(719f720c7e9f65a41a30d08c5a9ca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Prefabs/SliderThin.prefab using Guid(719f720c7e9f65a41a30d08c5a9ca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b83dca011eb75e24d3a659f42bd899c') in 0.004123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 4.048720 seconds.
+  path: Assets/YAFUI/Resources/Dialogue_YesNoCancle.prefab
+  artifactKey: Guid(991ecc53ab2426240946f57eb5bb281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Resources/Dialogue_YesNoCancle.prefab using Guid(991ecc53ab2426240946f57eb5bb281c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b857a2a89f593c88b419749b7417445') in 0.006319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 113
+========================================================================
+Received Import Request.
+  Time since last request: 4.952164 seconds.
+  path: Assets/YAFUI/Editor/MaterialDesign.colors
+  artifactKey: Guid(35f849240460f495d80d83c1e8f18463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Editor/MaterialDesign.colors using Guid(35f849240460f495d80d83c1e8f18463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613bb75747b1ddb4a4796366cb11f22c') in 0.001717 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.835780 seconds.
+  path: Assets/YAFUI/Animations/CheckBox
+  artifactKey: Guid(490c4acc49284404db3a0095a8820b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Animations/CheckBox using Guid(490c4acc49284404db3a0095a8820b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1e7f212c7119c6d884526b6b948d63') in 0.000428 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.596127 seconds.
+  path: Assets/YAFUI/Demo/Images
+  artifactKey: Guid(6f538bb3aebd9ed4d86ad3a591c64f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Images using Guid(6f538bb3aebd9ed4d86ad3a591c64f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b7bfc9d5940d5d931fd1a90aad6858') in 0.000405 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.241544 seconds.
+  path: Assets/YAFUI/Demo/Images/PrototypeBlack04x04.png
+  artifactKey: Guid(f955e3b56b97ee147a46c7d0e826ecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Images/PrototypeBlack04x04.png using Guid(f955e3b56b97ee147a46c7d0e826ecb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5677f774e56b75a712c72bdb59d8e725') in 0.023940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.486382 seconds.
+  path: Assets/YAFUI/Demo/Demo.unity
+  artifactKey: Guid(54c451bcad0c94559895caf63448504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Demo.unity using Guid(54c451bcad0c94559895caf63448504e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a784f8bd8fa334053dbe892e7a7d5d') in 0.000644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 9.944333 seconds.
+  path: Assets/YAFUI/Demo/Materials
+  artifactKey: Guid(49af88414147e443683546660bcaf2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Materials using Guid(49af88414147e443683546660bcaf2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e687356b6003b388cf6a5c62af9f22df') in 0.000586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065981 seconds.
+  path: Assets/YAFUI/Demo/Materials/Blue.mat
+  artifactKey: Guid(135130f9b1d2c420da43672cb6e6f9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Materials/Blue.mat using Guid(135130f9b1d2c420da43672cb6e6f9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a91d9748c6be48e6f8978f0a596ff7') in 0.050949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YAFUI/Demo/Materials/Red.mat
+  artifactKey: Guid(8de400a0c4c6341baab1eea684803942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Demo/Materials/Red.mat using Guid(8de400a0c4c6341baab1eea684803942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a846a49b0a3bd6730c8854e6066f671e') in 0.029149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.372903 seconds.
+  path: Assets/40+ Simple Icons - Free
+  artifactKey: Guid(c44a7c41d903b7f48873d94390ed1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40+ Simple Icons - Free using Guid(c44a7c41d903b7f48873d94390ed1774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed73550402ded77705d7200e064882f') in 0.000507 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.425682 seconds.
+  path: Assets/2D Space Backgrounds
+  artifactKey: Guid(c6d82ecf702dc324692bf48a76cbfa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Backgrounds using Guid(c6d82ecf702dc324692bf48a76cbfa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52f2842e46f3fe1fbb286d633b9c34a0') in 0.000493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.300442 seconds.
+  path: Assets/40+ Simple Icons - Free/Simple_Icons_UI_Sourse.svg
+  artifactKey: Guid(9ecab9ab938ee51489305eba7e61249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/40+ Simple Icons - Free/Simple_Icons_UI_Sourse.svg using Guid(9ecab9ab938ee51489305eba7e61249b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0804e57d99ee4d1e76d7f18de1534a2') in 0.000880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 28.519196 seconds.
+  path: Assets/YAFUI/Icons/png128/arrange-send-backward.png
+  artifactKey: Guid(c86ddc1c1623de943ad77433b74d493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrange-send-backward.png using Guid(c86ddc1c1623de943ad77433b74d493b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878944fac6ddf270c8503187dc9a6f9f') in 0.031815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-down.png
+  artifactKey: Guid(9e495d1dac258ff42ab2cf997de45134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-down.png using Guid(9e495d1dac258ff42ab2cf997de45134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b3d5b9288b515fef1f34c91e5c882b') in 0.035153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-collapse-down.png
+  artifactKey: Guid(9ebc1d84e469fb44ab1e90464d5ac5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-collapse-down.png using Guid(9ebc1d84e469fb44ab1e90464d5ac5b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a68b27d893fed7d0a3f784c339f00f') in 0.026716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-left-bold-hexagon-outline.png
+  artifactKey: Guid(4254e12452af9bb45a176eff5e4adb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-left-bold-hexagon-outline.png using Guid(4254e12452af9bb45a176eff5e4adb44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '931515fa21046740ee93696dc1ffb51a') in 0.024843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-bold-box.png
+  artifactKey: Guid(7e2bfdd9f58bcd545b988bda6611bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-bold-box.png using Guid(7e2bfdd9f58bcd545b988bda6611bf1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4712fa7fe7878833b140ff2128b0981e') in 0.031511 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-bold.png
+  artifactKey: Guid(d7f66cc579c6a074abca11bd4df11a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-bold.png using Guid(d7f66cc579c6a074abca11bd4df11a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca30e6807caf720da0d270dad607ed5') in 0.030029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-left-bold.png
+  artifactKey: Guid(bd6a713bdc53fd64986d6baaf69691a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-left-bold.png using Guid(bd6a713bdc53fd64986d6baaf69691a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aed22c03da7f73a79e1f7595128ea86') in 0.028720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-down-bold-circle.png
+  artifactKey: Guid(1991836f4c90e28418f9f3549faa12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-down-bold-circle.png using Guid(1991836f4c90e28418f9f3549faa12b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc81e4b9a71e5d7c5e4afb5d7f57fc68') in 0.030701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-collapse-right.png
+  artifactKey: Guid(133eb2b0a506b8e4bbb7b7d111eea535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-collapse-right.png using Guid(133eb2b0a506b8e4bbb7b7d111eea535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ea3393f059452d8596ed5df01fed40') in 0.028510 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-down-drop-circle.png
+  artifactKey: Guid(3bdf0a376fb4ad24480c3fa72137cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-down-drop-circle.png using Guid(3bdf0a376fb4ad24480c3fa72137cb90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2009f7113384c29bfeb67c3400974363') in 0.027424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-drop-circle.png
+  artifactKey: Guid(ebae9987b00506b4ab5f5e8e6771d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-drop-circle.png using Guid(ebae9987b00506b4ab5f5e8e6771d70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27aa775ae7db54fafd3b038807f0edc') in 0.031902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-up-bold-box.png
+  artifactKey: Guid(9be33ae0ced20cb4d950496e79f542c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-up-bold-box.png using Guid(9be33ae0ced20cb4d950496e79f542c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a8f7c25c96f54471ce54c7419a07fa') in 0.029158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/av-timer.png
+  artifactKey: Guid(42695895071bc304d9dd6e4e02eae45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/av-timer.png using Guid(42695895071bc304d9dd6e4e02eae45c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0f38e12922ebafed2a5e10a0fe0694') in 0.028356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/auto-fix.png
+  artifactKey: Guid(279e538d634d8af4281c0592f2e9f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/auto-fix.png using Guid(279e538d634d8af4281c0592f2e9f721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4397a0e5303cd9bc5d8eee48fb0e89ff') in 0.027101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Icons/png128/battery-10.png
+  artifactKey: Guid(ba0e30a45f049034086eed96c80865ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/battery-10.png using Guid(ba0e30a45f049034086eed96c80865ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaaf9580914a2be7079b09cddb621fa4') in 0.032646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/YAFUI/Icons/png128/battery-40.png
+  artifactKey: Guid(155296d2c2c42ad498b299f63a4ab1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/battery-40.png using Guid(155296d2c2c42ad498b299f63a4ab1f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0404788fd46343e7070f0b4487a5056') in 0.029171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/baby-buggy.png
+  artifactKey: Guid(eabfa493db4c6654d8c93d207f8e1ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/baby-buggy.png using Guid(eabfa493db4c6654d8c93d207f8e1ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239eb1ff820f27b7b214e92ffffee607') in 0.028129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/at.png
+  artifactKey: Guid(03e5efde0287f134988b7fa000586e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/at.png using Guid(03e5efde0287f134988b7fa000586e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f14ffa923ed0973f97ef04c1336c4dcb') in 0.030110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-expand-all.png
+  artifactKey: Guid(01939f090fa267848bb8a8ac1fbe3aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-expand-all.png using Guid(01939f090fa267848bb8a8ac1fbe3aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a538ed7608c993a8903aa90db0dc2d17') in 0.027894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/YAFUI/Icons/png128/battery-70.png
+  artifactKey: Guid(ad0cd5ad81b17de4fa47adedae8b415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/battery-70.png using Guid(ad0cd5ad81b17de4fa47adedae8b415d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b31b1e97ca3699568c78f98c6644eda') in 0.029426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/YAFUI/Icons/png128/battery-80.png
+  artifactKey: Guid(937979bc20cb32a4db1c93d8d20c3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/battery-80.png using Guid(937979bc20cb32a4db1c93d8d20c3f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a898077d255575fe2897f754e70fd68') in 0.030006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/autorenew.png
+  artifactKey: Guid(7278ed59e2021a646ace761533523211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/autorenew.png using Guid(7278ed59e2021a646ace761533523211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00504cc26866bc47efedd709cc6740d0') in 0.026937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/battery-positive.png
+  artifactKey: Guid(146eeafec6fa46344adbc738cd365d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/battery-positive.png using Guid(146eeafec6fa46344adbc738cd365d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27cd49d04b8da024ac9edf4d7c1e2da') in 0.023248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/bell-ring.png
+  artifactKey: Guid(887aa5a830e94df479a743f2be0887a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bell-ring.png using Guid(887aa5a830e94df479a743f2be0887a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddbc82f16a34d7de5fef9716888728df') in 0.028111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/black-mesa.png
+  artifactKey: Guid(4de6ec8b0252a0a4db02156de7689e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/black-mesa.png using Guid(4de6ec8b0252a0a4db02156de7689e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a989ba008fb79b1aab7cb0b9e354d1e5') in 0.026477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/blur-radial.png
+  artifactKey: Guid(75dc979476a9f5f4db42fc4d71928809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/blur-radial.png using Guid(75dc979476a9f5f4db42fc4d71928809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab112177aed3a6684c87a56eb52ada7') in 0.032822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/YAFUI/Icons/png128/bio.png
+  artifactKey: Guid(daba04c6e5b1c2e40842d782b02559ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bio.png using Guid(daba04c6e5b1c2e40842d782b02559ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0e44139ca5ff773febbcb4b70171470') in 0.025419 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/YAFUI/Icons/png128/bandcamp.png
+  artifactKey: Guid(56c771fb356594647b30514229aa4d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bandcamp.png using Guid(56c771fb356594647b30514229aa4d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101e530a9a8411b3228d604f2318133b') in 0.030573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-up-box.png
+  artifactKey: Guid(95ff9b9bdd9aaee4898e7fa1d04819ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-up-box.png using Guid(95ff9b9bdd9aaee4898e7fa1d04819ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a5c1c525b3e4dc11cc41389aaa7a3f') in 0.026054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-top-left.png
+  artifactKey: Guid(fa64fe1fe3d9b9649928beb3ada83814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-top-left.png using Guid(fa64fe1fe3d9b9649928beb3ada83814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80ffba9baa5d7c46b5e5189c2b53c9a') in 0.027695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-bold-box-outline.png
+  artifactKey: Guid(3d9b4229e643b0d42a0942f85e36d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-bold-box-outline.png using Guid(3d9b4229e643b0d42a0942f85e36d650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56132dbdef3ece8f307330c2d7766be9') in 0.031329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-bold-hexagon-outline.png
+  artifactKey: Guid(38f04706c4a42df45b54754529672f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-bold-hexagon-outline.png using Guid(38f04706c4a42df45b54754529672f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d119d687a3e093b0bb8da49cd769b8') in 0.029066 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-right-drop-circle-outline.png
+  artifactKey: Guid(b4e3d43b9a3ccce48a26f0d9ed3410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-right-drop-circle-outline.png using Guid(b4e3d43b9a3ccce48a26f0d9ed3410b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e6e15e5e83fbcf2510955b488bd763') in 0.026195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-expand-down.png
+  artifactKey: Guid(3d991c32e3cca554fbbfc3431d2e6153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-expand-down.png using Guid(3d991c32e3cca554fbbfc3431d2e6153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e8705e96ab2c3be910223b00871e25c') in 0.026565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-up-drop-circle.png
+  artifactKey: Guid(ca6e2d928c4777c458285fb2c03de0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-up-drop-circle.png using Guid(ca6e2d928c4777c458285fb2c03de0ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0975661ecc4f4d3425021870c49c335e') in 0.029278 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-left-thick.png
+  artifactKey: Guid(b43ac1a5031d7f04ab0babded013ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-left-thick.png using Guid(b43ac1a5031d7f04ab0babded013ddd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c6ccb91cdde3e3c95b16a67de0b453e') in 0.030366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-expand.png
+  artifactKey: Guid(4530e2b0f04930f4c8ad47691e0c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-expand.png using Guid(4530e2b0f04930f4c8ad47691e0c6dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5103e523c5705e63c08ca3a51fe819e8') in 0.034346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/backspace.png
+  artifactKey: Guid(4b8ae130325110a4abdd800be75b6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/backspace.png using Guid(4b8ae130325110a4abdd800be75b6529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eef522d5a54db88997d0b917b59f341') in 0.027723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-collapse-up.png
+  artifactKey: Guid(6e6d1324c5c75e64c8f3f46d345fdc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-collapse-up.png using Guid(6e6d1324c5c75e64c8f3f46d345fdc14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be14481e1e21de2de0295891b1d660') in 0.029263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Icons/png128/bible.png
+  artifactKey: Guid(4f568b7e627061f4493a2087b4ef295e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bible.png using Guid(4f568b7e627061f4493a2087b4ef295e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd543bccf5510fa2313a4449f617fd5ff') in 0.025763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-up-bold-box-outline.png
+  artifactKey: Guid(ecde698c1653ed04296d3c62e0eebdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-up-bold-box-outline.png using Guid(ecde698c1653ed04296d3c62e0eebdb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7010aad98cd1b97f71945c0b5adc0146') in 0.028027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/YAFUI/Icons/png128/bomb-off.png
+  artifactKey: Guid(b461dd658e5930240a3cec37370fc63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bomb-off.png using Guid(b461dd658e5930240a3cec37370fc63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ebf84817605c0188b52a428d2a1e23') in 0.035713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/YAFUI/Icons/png128/bike.png
+  artifactKey: Guid(da0c8ea858e78c7458604724646e23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bike.png using Guid(da0c8ea858e78c7458604724646e23f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da294d7f749466fe788cd4ed6217ea44') in 0.034911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/YAFUI/Icons/png128/basecamp.png
+  artifactKey: Guid(7212dfbb2db4b2f45af69bac5ea93d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/basecamp.png using Guid(7212dfbb2db4b2f45af69bac5ea93d07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4892a432dccef73c7b42fc52852b171') in 0.032084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/arrow-compress.png
+  artifactKey: Guid(5a8abc99d25d3af43a5ad462ed93fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/arrow-compress.png using Guid(5a8abc99d25d3af43a5ad462ed93fc03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6e8c5c239fb41fc70696a1794751ca') in 0.032083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.065020 seconds.
+  path: Assets/YAFUI/Icons/png128/book-secure.png
+  artifactKey: Guid(330f670cc6395a14d8a4e4e38e4b67d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/book-secure.png using Guid(330f670cc6395a14d8a4e4e38e4b67d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c255af0e85fdfb008a378ff5432457a4') in 0.032390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/YAFUI/Icons/png128/border-all.png
+  artifactKey: Guid(d6abd81544040c248aba7beec0f43a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/border-all.png using Guid(d6abd81544040c248aba7beec0f43a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca1da8100af9053a8f3c82eb6665fb9') in 0.029093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/YAFUI/Icons/png128/briefcase-checked.png
+  artifactKey: Guid(9418dc2677d74e74a9df145e674c086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/briefcase-checked.png using Guid(9418dc2677d74e74a9df145e674c086c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0b49184675cf83e0769c154dc380e4') in 0.027945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/border-outside.png
+  artifactKey: Guid(ab06afb11b0a6e34b9fc91590db2800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/border-outside.png using Guid(ab06afb11b0a6e34b9fc91590db2800a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07fea7b128802aa009ea62e71bc8b6be') in 0.027946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/YAFUI/Icons/png128/bootstrap.png
+  artifactKey: Guid(e542a828a8131c249bafbf67923314b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bootstrap.png using Guid(e542a828a8131c249bafbf67923314b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892fbe627bc6d44744a8932dab9ac6a8') in 0.029329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/YAFUI/Icons/png128/briefcase.png
+  artifactKey: Guid(a3054ff6db8ad6a4588058e009e8ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/briefcase.png using Guid(a3054ff6db8ad6a4588058e009e8ac4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a8aac30b8bea7908b0d80c9f016809') in 0.034836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/YAFUI/Icons/png128/brightness.png
+  artifactKey: Guid(d1d3bdfb5965a8349bc45e9a6bbdb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/brightness.png using Guid(d1d3bdfb5965a8349bc45e9a6bbdb1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28f6a68e268d0fc3529d36e617e447fc') in 0.027678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/bookmark-music.png
+  artifactKey: Guid(0e7fcd70d1817724d874049abed247d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bookmark-music.png using Guid(0e7fcd70d1817724d874049abed247d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c879b067baed41365f66a58d5e997f') in 0.028080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/YAFUI/Icons/png128/border-inside.png
+  artifactKey: Guid(ff6eac7959e1b8c4a8b8218a49bfbf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/border-inside.png using Guid(ff6eac7959e1b8c4a8b8218a49bfbf9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3032a5a1c7e4adba6a6535dd4a01aa29') in 0.030770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/briefcase-download.png
+  artifactKey: Guid(5d71c78125975c64a99402b9ae103270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/briefcase-download.png using Guid(5d71c78125975c64a99402b9ae103270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c81f6827cec093a8b9b2b0a767899a68') in 0.028998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/YAFUI/Icons/png128/bookmark-outline.png
+  artifactKey: Guid(254a4f7f7afd0504a8b3b5e57d4c9fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Icons/png128/bookmark-outline.png using Guid(254a4f7f7afd0504a8b3b5e57d4c9fd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f05dd39b812819789fbae6ec915e140') in 0.024915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.479871 seconds.
+  path: Assets/YAFUI/Images/old2/roundedSquare08.png
+  artifactKey: Guid(b11cd18881ec4a9409e72083edfb919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old2/roundedSquare08.png using Guid(b11cd18881ec4a9409e72083edfb919c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c54c7ea73ee397b795ee1f03c8092b') in 0.026672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/YAFUI/Images/old2/square16.png
+  artifactKey: Guid(c5371dd81dd3bc54fa5941d5c98755bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI/Images/old2/square16.png using Guid(c5371dd81dd3bc54fa5941d5c98755bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfcb506a418cb398d3b6b8e90d7819a') in 0.013817 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 150.390148 seconds.
+  path: Assets/Scenes/mainMenuScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mainMenuScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7eec19d1ccb5be04d92f513fedc5f63') in 0.000566 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.670 seconds
+Refreshing native plugins compatible for Editor in 5.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.073 seconds
+Domain Reload Profiling: 1737ms
+	BeginReloadAssembly (227ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (61ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (29ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1074ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 5.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3336 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 28 unused Assets / (34.0 KB). Loaded Objects now: 3861.
+Memory consumption went from 125.8 MB to 125.8 MB.
+Total: 3.484000 ms (FindLiveObjects: 0.282500 ms CreateObjectMapping: 0.264400 ms MarkObjects: 2.882100 ms  DeleteObjects: 0.054000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 250.395914 seconds.
+  path: Assets/Photon
+  artifactKey: Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon using Guid(98951132346795f438babe7a3183da43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dfeb235f7c016b91408ecf6befe25fc') in 0.002316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148767 seconds.
+  path: Assets/YAFUI
+  artifactKey: Guid(6bdf3738c1bdb8549b9c96c93dd0e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/YAFUI using Guid(6bdf3738c1bdb8549b9c96c93dd0e74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e415251bd256c0b55ad339e74016d45') in 0.000604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.665 seconds
+Refreshing native plugins compatible for Editor in 6.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.029 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (215ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (45ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (337ms)
+		LoadAssemblies (416ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (40ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1030ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (372ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (0.7 MB). Loaded Objects now: 3899.
+Memory consumption went from 130.5 MB to 129.7 MB.
+Total: 4.667300 ms (FindLiveObjects: 0.262600 ms CreateObjectMapping: 0.264600 ms MarkObjects: 3.602200 ms  DeleteObjects: 0.536800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 189.726455 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e438178d1c5f513ada1df503f98230b5') in 0.177027 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07baea5481da5c8126a93f8cdb71cb86') in 0.084611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.071813 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45229e3c00963924ed36bf51ca2daca') in 0.088773 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+  artifactKey: Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset using Guid(5302535af1044152a457ed104f1f4b91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8d904365340d043009296e5de7781d') in 0.031528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Packages/com.binarycharm.ui/Runtime/Fonts/Ubuntu Regular SDF.asset
+  artifactKey: Guid(444c8cdab764d0748af7a4eb59f506ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.binarycharm.ui/Runtime/Fonts/Ubuntu Regular SDF.asset using Guid(444c8cdab764d0748af7a4eb59f506ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf0974a422731b88d8b6c7d6ccd35d2') in 0.034854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.562 seconds
+Refreshing native plugins compatible for Editor in 4.99 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.119 seconds
+Domain Reload Profiling: 1677ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (304ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (23ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1120ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (478ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Refreshing native plugins compatible for Editor in 7.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (0.6 MB). Loaded Objects now: 3905.
+Memory consumption went from 130.5 MB to 129.9 MB.
+Total: 5.286300 ms (FindLiveObjects: 0.583600 ms CreateObjectMapping: 0.645600 ms MarkObjects: 3.586900 ms  DeleteObjects: 0.468600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

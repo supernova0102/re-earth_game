@@ -13,10 +13,42 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638282162316222044
-    m_Hash: 1381362156
+      ticks: 638282916821601801
+    m_Hash: 159338297
 m_EmbeddedPackageManifests:
-  m_ManifestsStatus: {}
+  m_ManifestsStatus:
+    C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.ui/package.json:
+      m_FilePath: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.ui/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638040349810000000
+      m_Hash: 557031671
+    C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.text-color-buttons/package.json:
+      m_FilePath: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.text-color-buttons/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638040349740000000
+      m_Hash: 808708400
+    C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.common/package.json:
+      m_FilePath: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.common/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638040349320000000
+      m_Hash: 1715223644
+    C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.samples.ui/package.json:
+      m_FilePath: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages/com.binarycharm.samples.ui/package.json
+      m_PathExists: 1
+      m_ContentTrackingEnabled: 1
+      m_ModificationDate:
+        serializedVersion: 2
+        ticks: 638040349600000000
+      m_Hash: 2205837549
 m_LocalPackages:
   m_LocalFileStatus: []
 m_ProjectPath: C:/Users/supnova/Desktop/programming_practice/re-earth_game/earth_game_project_local/Packages
@@ -2600,6 +2632,223 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.0.0
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.binarycharm.common@file:C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.common
+  testable: 1
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 3
+  resolvedPath: C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.common
+  assetPath: Packages/com.binarycharm.common
+  name: com.binarycharm.common
+  displayName: Binary Charm (Common)
+  author:
+    name: Binary Charm
+    email: info@binarycharm.com
+    url: https://www.binarycharm.com
+  category: 
+  type: 
+  description: Commonly used general purpose code
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.binarycharm.samples.ui@file:C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.samples.ui
+  testable: 1
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 3
+  resolvedPath: C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.samples.ui
+  assetPath: Packages/com.binarycharm.samples.ui
+  name: com.binarycharm.samples.ui
+  displayName: Binary Charm (Samples.UI)
+  author:
+    name: Binary Charm
+    email: info@binarycharm.com
+    url: https://www.binarycharm.com
+  category: 
+  type: 
+  description: Commonly used UI components for samples
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.binarycharm.text-color-buttons@file:C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.text-color-buttons
+  testable: 1
+  isDirectDependency: 1
+  version: 1.1.0
+  source: 3
+  resolvedPath: C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.text-color-buttons
+  assetPath: Packages/com.binarycharm.text-color-buttons
+  name: com.binarycharm.text-color-buttons
+  displayName: Text Color Buttons
+  author:
+    name: Binary Charm
+    email: info@binarycharm.com
+    url: https://www.binarycharm.com
+  category: 
+  type: 
+  description: Button extension to have labels color changing according to button
+    states
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.ugui
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: https://www.binarycharm.com/tech/unity-text-color-buttons/docs/06ERJ9xa29Q6KWPbyguMiX5UcfApHxuN/docfx
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+- packageId: com.binarycharm.ui@file:C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.ui
+  testable: 1
+  isDirectDependency: 1
+  version: 1.0.0
+  source: 3
+  resolvedPath: C:\Users\supnova\Desktop\programming_practice\re-earth_game\earth_game_project_local\Packages\com.binarycharm.ui
+  assetPath: Packages/com.binarycharm.ui
+  name: com.binarycharm.ui
+  displayName: Binary Charm (UI)
+  author:
+    name: Binary Charm
+    email: info@binarycharm.com
+    url: https://www.binarycharm.com
+  category: 
+  type: 
+  description: Commonly used UI code and assets
+  status: 0
+  errors: []
+  versions:
+    all: []
+    compatible: []
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
