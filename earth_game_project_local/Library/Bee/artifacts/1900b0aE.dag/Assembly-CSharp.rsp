@@ -388,6 +388,7 @@
 "Assets/Photon/PhotonLibs/WebSocket/SocketWebTcp.cs"
 "Assets/Photon/PhotonLibs/WebSocket/WebSocket.cs"
 "Assets/Photon/PhotonRealtime/Demos/DemoLoadBalancing/ConnectAndJoinRandomLb.cs"
+"Assets/Scenes/inGameFolder/globalWarmingMeterManager.cs"
 "Assets/Scenes/mainMenuFolder/earthSpinner.cs"
 "Assets/Scenes/mainMenuFolder/sceneChanger.cs"
 "Assets/StarfieldMaterials/Scripts/Move.cs"
