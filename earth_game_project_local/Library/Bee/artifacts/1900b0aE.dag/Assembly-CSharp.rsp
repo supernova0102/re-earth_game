@@ -391,6 +391,7 @@
 "Assets/Scenes/inGameFolder/generalPlayerStatsManager.cs"
 "Assets/Scenes/inGameFolder/globalWarmingMeterManager.cs"
 "Assets/Scenes/inGameFolder/panelUiControl.cs"
+"Assets/Scenes/inGameFolder/set1280.cs"
 "Assets/Scenes/mainMenuFolder/earthSpinner.cs"
 "Assets/Scenes/mainMenuFolder/sceneChanger.cs"
 "Assets/StarfieldMaterials/Scripts/Move.cs"
